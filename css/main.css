@@ -1,0 +1,99 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    margin-top: 60px;
+    display: inline-block;
+}
+
+main > div {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+main > div > span {
+    display: inline-block;
+    border: 4px solid;
+    background-color: #fff;
+    width: 40px;
+    line-height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main > div > img {
+    width: 200px;
+    height: 200px;
+    padding: 25%;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.pirmas {
+    background-color: #70c0c9;
+}
+
+span.pirmas {
+    background-color: #fff;
+    border-color: #70c0c9;
+    color: #70c0c9;
+}
+
+span.antras {
+    background-color: #fff;
+    border-color: #4074bd;
+    color: #4074bd;
+}
+
+span.trecias {
+    background-color: #fff;
+    border-color: #e05e46;
+    color: #e05e46;
+}
+
+span.ketvirtas {
+    background-color: #fff;
+    border-color: #919191;
+    color: #919191;
+}
+
+.antras {
+    background-color: #4074bd;
+}
+
+.trecias {
+    background-color: #e05e46;
+}
+
+.ketvirtas {
+    background-color: #919191;
+}
+
+main > div > h2 {
+    text-transform: uppercase;
+    color: #e05e46;
+    padding: 18px;
+    font-weight: normal;
+}
+
+main > div > p {
+    color: gray;
+    /* font-size: 12px; */
+    line-height: 20px;
+}
